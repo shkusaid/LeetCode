@@ -15,5 +15,5 @@ def valid_palindrome(s):
         right -= 1
     return True
 
-s = "abc"
+s = "abca"
 print(valid_palindrome(s))
