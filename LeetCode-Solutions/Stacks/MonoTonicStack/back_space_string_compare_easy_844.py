@@ -34,7 +34,7 @@ def back_space_compare(s , t):
             else:
                 break
         while j >= 0:
-            if s[j] == "#":
+            if t[j] == "#":
                 skip_t += 1
                 j -= 1
             elif skip_t > 0:
