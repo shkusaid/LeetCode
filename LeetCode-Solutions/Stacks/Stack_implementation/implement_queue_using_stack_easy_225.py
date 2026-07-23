@@ -36,7 +36,7 @@ class Stack:
                 self.stack2.append(self.stack1.pop())
         return self.stack2[-1]
     def is_empty(self):
-        return len(self.stack1) == 0
+        return len(self.stack1) == 0 and len(self.stack2) == 0
 
 st = Stack()
 st.push(1)
