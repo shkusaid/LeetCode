@@ -8,7 +8,7 @@ A curated collection of my LeetCode solutions implemented in Python. This reposi
 
 | Topic | Solutions |
 |---|---|
-| Array (Two Pointers, Sliding Window, Prefix Sum, Kadane's, Greedy) | 31 |
+| Array (Two Pointers, Sliding Window, Prefix Sum, Kadane's, Greedy) | 32 |
 | Stacks (Monotonic Stack, Parenthesis Check, Expression Stack, Undo Ops) | 26 |
 | Binary Search (Classic, On Answer, Upper/Lower Bound, 2D Matrix) | 19 |
 | Strings (Sliding Window, Two Pointers) | 11 |
