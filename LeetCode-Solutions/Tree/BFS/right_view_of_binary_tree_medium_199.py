@@ -9,7 +9,7 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
-    def left_view(self, root):
+    def right_view(self, root):
         if not root:
             return []
         ans = []
@@ -18,7 +18,7 @@ class Solution:
             size = len(q)
             for i in range(size):
                 node = q.popleft()
-                if i == 0:
+                if i == size -1:
                     ans.append(node.val)
                 if node.left:
                     q.append(node.left)
@@ -35,11 +35,10 @@ root.right.left = TreeNode(6)
 root.right.right = TreeNode(7)
 
 # sol = Solution()
-# print(sol.left_view(root))  # Output: [1, 2, 4]
+# print(sol.right_view(root))  # Output: [1, 3, 7]
 
 
-# ___________________ DFS ________________________
-
+# ____________________ DFS ____________________
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -48,7 +47,7 @@ class TreeNode:
 
 
 class Solution:
-    def left_side_dfs(self, root):
+    def rightSideView(self, root):
         ans = []
 
         def dfs(node, depth):
@@ -58,8 +57,8 @@ class Solution:
             if depth == len(ans):
                 ans.append(node.val)
 
-            dfs(node.left, depth + 1)
             dfs(node.right, depth + 1)
+            dfs(node.left, depth + 1)
 
         dfs(root, 0)
 
@@ -75,4 +74,4 @@ root.right.right = TreeNode(4)
 
 # Call function
 sol = Solution()
-print(sol.left_side_dfs(root))
+print(sol.rightSideView(root))
