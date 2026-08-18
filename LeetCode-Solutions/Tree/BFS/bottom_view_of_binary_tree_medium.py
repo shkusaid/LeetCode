@@ -27,4 +27,4 @@ root.left.left = TreeNode(4)
 root.left.right = TreeNode(5)
 root.right.right = TreeNode(6)
 
-print("Top View:", bottom_view(root))
+print("Top View:", bottom_view(root)) # Bottom View: [4, 2, 5, 3, 6]
