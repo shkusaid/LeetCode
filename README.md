@@ -1,63 +1,97 @@
-<h1 align="center">Hi there, I'm Muhammad Usaid 👋</h1>
-<h3 align="center">Machine Learning Developer | Open Source Learner | Python • PyTorch • Computer Vision • NLP</h3>
+# 🧩 LeetCode Solutions
 
-<p align="center">
-  <a href="https://usaidfolio910.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/muhammad-usaid-nisar" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/5bE2cHiN2w/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="https://www.hackerrank.com/profile/shkusaid910" target="_blank"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" /></a>
-</p>
+A curated collection of my LeetCode solutions implemented in Python. This repository showcases my journey of improving problem solving skills, mastering Data Structures and Algorithms, and preparing for technical interviews.
+
+🔗 **LeetCode Profile:** [leetcode.com/u/5bE2cHiN2w](https://leetcode.com/u/5bE2cHiN2w/)
+
+## Progress Snapshot
+
+| Topic                                                                   | Solutions         |
+| ------------------------------------------------------------------------ | ----------------- |
+| Array (Two Pointers, Sliding Window, Prefix Sum, Kadane's, Greedy, Bitwise) | 36               |
+| Stacks (Monotonic Stack, Parenthesis Check, Expression Stack, Undo Ops)  | 26               |
+| Binary Search (Classic, On Answer, Upper/Lower Bound, 2D Matrix)        | 19               |
+| Tree (BFS, DFS)                                                          | 14               |
+| Strings (Sliding Window, Two Pointers, Greedy, Hashing)                 | 13               |
+| Math                                                                     | 3                |
+| Recursion                                                                | 2                |
+| Linked List                                                              | 2                |
+| Hashing                                                                  | 1                |
+| **Total**                                                                | **116 solutions** |
+
+> Counts reflect the current state of the repo and grow as I keep solving. See the [live progress here](#progress).
+
+## Repository Structure
+
+Solutions are organized by topic, and further by technique/pattern, for easy navigation:
+
+```
+LeetCode-Solutions/
+├── Array/
+│   ├── Bitwise_operations/
+│   ├── Greedy/
+│   ├── Kadane's Algorithm/
+│   ├── Sliding_window_approach/
+│   ├── Two_pointers_approach/
+│   └── prefix_sum_approach/
+├── Binary_Search/
+│   ├── Binary_Search_on_Answer/
+│   ├── Classic_Binary_Search/
+│   ├── Search_in_2D_Matrix/
+│   └── Upper_and_Lower_Bound/
+├── Stacks/
+│   ├── Expression_Stack/
+│   ├── MonoTonicStack/
+│   ├── Paranthesis_check/
+│   ├── Stack_implementation/
+│   └── Undo_Operations/
+├── Strings/
+│   ├── Greedy/
+│   ├── Hashing/
+│   ├── sliding_windows/
+│   └── two_pointers/
+├── Tree/
+│   ├── BFS/
+│   └── DFS/
+├── Recurrsion/
+│   └── non_linear_recurrsion/
+├── Math/
+│   ├── Weekly_contest_255/
+│   ├── Weekly_contest_477/
+│   └── simple/
+├── Hashing/
+└── Linked_list/
+```
+
+Each filename includes the problem name, difficulty, and LeetCode problem number (e.g. `three_sum_medium_15.py`) for quick lookup.
+
+## What Each Solution Includes
+
+- Clean and readable Python code
+- An optimal or near-optimal approach
+- Time and space complexity considered in the implementation
+- Organization by problem-solving pattern (not just topic) — so this repo doubles as a technique reference, not just an answer key
+
+## Goals
+
+This repository serves as a record of my DSA learning journey and aims to:
+
+- Strengthen problem solving skills across core patterns (two pointers, sliding window, binary search on answer, monotonic stack, tree traversal, etc.)
+- Master fundamental data structures and algorithms
+- Prepare for coding interviews and online assessments
+- Maintain consistency through regular practice
+- Track learning progress over time
+
+## Roadmap
+
+- [ ] Add solutions for Graphs, Heaps, and Dynamic Programming (currently unrepresented)
+- [ ] Add a short complexity comment (Time/Space) at the top of each file
+- [ ] Add a script to auto-generate the progress table from the folder structure
+
+## Contributing
+
+This repository is primarily for personal learning and practice. Suggestions, improvements, and discussions are always welcome via Issues or PRs.
 
 ---
 
-### 🚀 About Me
-
-- 🔭 I'm currently building projects in **Machine Learning**, **Computer Vision**, and **NLP**
-- 🌱 Always learning through open source and hands-on projects
-- 🧠 Comfortable across the stack — from data cleaning to deployable ML apps
-- 💬 Ask me about Python, PyTorch, or anything NLP/CV related
-- ⚡ Fun fact: I like turning messy datasets into something useful
-
----
-
-### 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
-
----
-
-### 📌 Featured Projects
-
-- 🌍 **[Human-Language-Detector](https://github.com/shkusaid/Human-Language-Detector)** — Detects the language of text using a Naive Bayes classifier and translates it via pretrained transformer models.
-- 🧹 **[Data_cleaning_project](https://github.com/shkusaid/Data_cleaning_project)** — Data cleaning and preprocessing workflow in Jupyter Notebook.
-- 🛒 **[E-Commerce-App](https://github.com/shkusaid/E-Commerce-App)** — Full-featured e-commerce web application.
-- 📚 **[Library-app](https://github.com/shkusaid/Library-app)** — A library management application.
-- 🍔 **[Foodie-Frienzy](https://github.com/shkusaid/Foodie-Frienzy)** — A food-ordering web app.
-- ❌⭕ **[Tic-Tac-Toe-Game](https://github.com/shkusaid/Tic-Tac-Toe-Game)** — Classic Tic-Tac-Toe built for fun and practice.
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shkusaid&show_icons=true&theme=tokyonight&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shkusaid&layout=compact&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shkusaid&theme=tokyonight" />
-</p>
-
----
-
-<p align="center">
-  <em>Thanks for stopping by — feel free to explore my repos or connect with me!</em>
-</p>
+If you find this repository helpful, consider giving it a ⭐.
