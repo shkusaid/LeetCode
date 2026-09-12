@@ -1,25 +1,31 @@
 # 🧩 LeetCode Solutions
 
+[![GitHub stars](https://img.shields.io/github/stars/shkusaid/LeetCode?style=social)](https://github.com/shkusaid/LeetCode/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shkusaid/LeetCode?style=social)](https://github.com/shkusaid/LeetCode/forks)
+[![GitHub last commit](https://img.shields.io/github/last-commit/shkusaid/LeetCode)](https://github.com/shkusaid/LeetCode/commits/main)
+[![Top language](https://img.shields.io/github/languages/top/shkusaid/LeetCode)](https://github.com/shkusaid/LeetCode)
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-orange?logo=leetcode&logoColor=white)](https://leetcode.com/u/5bE2cHiN2w/)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-280%2B-brightgreen?logo=leetcode&logoColor=white)](https://leetcode.com/u/5bE2cHiN2w/)
+[![50 Days Badge](https://img.shields.io/badge/LeetCode-50%20Days%20Badge%202026-yellow?logo=leetcode&logoColor=white)](https://leetcode.com/u/5bE2cHiN2w/)
+
 A curated collection of my LeetCode solutions implemented in Python. This repository showcases my journey of improving problem solving skills, mastering Data Structures and Algorithms, and preparing for technical interviews.
 
 🔗 **LeetCode Profile:** [leetcode.com/u/5bE2cHiN2w](https://leetcode.com/u/5bE2cHiN2w/)
 
 ## Progress Snapshot
 
-| Topic                                                                   | Solutions         |
-| ------------------------------------------------------------------------ | ----------------- |
-| Array (Two Pointers, Sliding Window, Prefix Sum, Kadane's, Greedy, Bitwise) | 36               |
-| Stacks (Monotonic Stack, Parenthesis Check, Expression Stack, Undo Ops)  | 26               |
+| Topic                                                                   | Solutions        |
+| ----------------------------------------------------------------------- | ---------------- |
+| Array (Two Pointers, Sliding Window, Prefix Sum, Kadane's, Greedy)      | 32               |
+| Stacks (Monotonic Stack, Parenthesis Check, Expression Stack, Undo Ops) | 26               |
 | Binary Search (Classic, On Answer, Upper/Lower Bound, 2D Matrix)        | 19               |
-| Tree (BFS, DFS)                                                          | 14               |
-| Strings (Sliding Window, Two Pointers, Greedy, Hashing)                 | 13               |
-| Math                                                                     | 3                |
-| Recursion                                                                | 2                |
-| Linked List                                                              | 2                |
-| Hashing                                                                  | 1                |
-| **Total**                                                                | **116 solutions** |
+| Strings (Sliding Window, Two Pointers)                                  | 11               |
+| Math                                                                    | 2                |
+| Hashing                                                                 | 1                |
+| Linked List                                                             | 1                |
+| **Total**                                                               | **91 solutions** |
 
-> Counts reflect the current state of the repo and grow as I keep solving. See the [live progress here](#progress).
+> Counts reflect the current state of the repo and grow as I keep solving. See the [live progress here](#progress-snapshot).
 
 ## Repository Structure
 
@@ -28,7 +34,6 @@ Solutions are organized by topic, and further by technique/pattern, for easy nav
 ```
 LeetCode-Solutions/
 ├── Array/
-│   ├── Bitwise_operations/
 │   ├── Greedy/
 │   ├── Kadane's Algorithm/
 │   ├── Sliding_window_approach/
@@ -46,21 +51,11 @@ LeetCode-Solutions/
 │   ├── Stack_implementation/
 │   └── Undo_Operations/
 ├── Strings/
-│   ├── Greedy/
-│   ├── Hashing/
 │   ├── sliding_windows/
 │   └── two_pointers/
-├── Tree/
-│   ├── BFS/
-│   └── DFS/
-├── Recurrsion/
-│   └── non_linear_recurrsion/
-├── Math/
-│   ├── Weekly_contest_255/
-│   ├── Weekly_contest_477/
-│   └── simple/
 ├── Hashing/
-└── Linked_list/
+├── Linked_list/
+└── Math/
 ```
 
 Each filename includes the problem name, difficulty, and LeetCode problem number (e.g. `three_sum_medium_15.py`) for quick lookup.
@@ -76,7 +71,7 @@ Each filename includes the problem name, difficulty, and LeetCode problem number
 
 This repository serves as a record of my DSA learning journey and aims to:
 
-- Strengthen problem solving skills across core patterns (two pointers, sliding window, binary search on answer, monotonic stack, tree traversal, etc.)
+- Strengthen problem solving skills across core patterns (two pointers, sliding window, binary search on answer, monotonic stack, etc.)
 - Master fundamental data structures and algorithms
 - Prepare for coding interviews and online assessments
 - Maintain consistency through regular practice
@@ -84,7 +79,7 @@ This repository serves as a record of my DSA learning journey and aims to:
 
 ## Roadmap
 
-- [ ] Add solutions for Graphs, Heaps, and Dynamic Programming (currently unrepresented)
+- [ ] Add solutions for Trees, Graphs, Heaps, and Dynamic Programming (currently unrepresented)
 - [ ] Add a short complexity comment (Time/Space) at the top of each file
 - [ ] Add a script to auto-generate the progress table from the folder structure
 
